@@ -3,10 +3,12 @@ var express    = require('express');
 var app        = express();
 var bodyParser = require('body-parser');
 var dbConnection=require('./app/db-connection/db-connection');
-var loginCrude=require('./app/crud-operations/log-in/log-in');
-var schoolCrude=require('./app/crud-operations/school-registration/school-rgistration');
-var locationsCrude=require('./app/crud-operations/locations/locations');
 
+var loginCrude = require('./app/crud-operations/log-in/log-in');
+var schoolCrude = require('./app/crud-operations/school-registration/school-rgistration');
+var locationsCrude = require('./app/crud-operations/locations/locations');
+var studentCrude = require('./app/crud-operations/students/students');
+var teacherCrude = require('./app/crud-operations/teachers/teachers');
 // Use connect method to connect to the server
 var MongoClient=dbConnection.getMongoClient();
 var url=dbConnection.getConnectionUrl();
@@ -166,6 +168,44 @@ router.route('/school/:schoolId')
                 res.json(result);
                 db.close();
             })
+        });
+    });
+
+router.route('/student')
+    .get(setAcceptsHeader,function(req,res){
+        MongoClient.connect(url,function (err,db) {
+            studentCrude.getStudentsDetails(req,db,function (result) {
+                res.json(result);
+                db.close();
+            })
+        });
+    })
+    .post(setAcceptsHeader,function (req,res) {
+        res.setHeader('Content-Type', 'application/json');
+        MongoClient.connect(url, function(err, db) {
+            studentCrude.saveStudentDetails(req,db, function(result) {
+                res.json({message:'success'});
+                db.close();
+            });
+        });
+    });
+
+router.route('/teacher')
+    .get(setAcceptsHeader,function(req,res){
+        MongoClient.connect(url,function (err,db) {
+            teacherCrude.getTeachersDetails(req,db,function (result) {
+                res.json(result);
+                db.close();
+            })
+        });
+    })
+    .post(setAcceptsHeader,function (req,res) {
+        res.setHeader('Content-Type', 'application/json');
+        MongoClient.connect(url, function(err, db) {
+            teacherCrude.saveTeacherDetails(req,db, function(result) {
+                res.json({message:'success'});
+                db.close();
+            });
         });
     });
 
