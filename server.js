@@ -241,7 +241,7 @@ router.route('/teacher')
                 db.close();
             });
         });
-    });
+    })
 
 app.use('/api', router);
 
