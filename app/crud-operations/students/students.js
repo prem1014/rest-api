@@ -16,7 +16,9 @@ module.exports = {
                 cityName:req.body.cityName,
                 address:req.body.address,
                 mobileNo:req.body.mobileNo,
-                schoolName:req.body.schoolName
+                schoolName:req.body.schoolName,
+                emailId:req.body.emailId,
+                pinCode:req.body.pinCode
         },
             function (err,result) {
                 callback(err,result)
