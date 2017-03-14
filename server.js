@@ -68,12 +68,30 @@ router.route('/login')
             console.log(req);
             console.log("Connected successfully to server");
             loginCrude.saveNewUserDetails(req,db, function(result) {
-                res.json({message:'data saved'});
+                res.json({message:'success'});
                 db.close();
                 console.log("Connection closed");
             });
         });
     });
+
+router.route('/login/:id')
+    .get(setAcceptsHeader,function(req,res){
+        MongoClient.connect(url,function (err,db) {
+            loginCrude.getUserById(req,db,function (result) {
+                res.json(result);
+                db.close();
+            })
+        });        
+    })
+    .delete(setAcceptsHeader,function(req,res){
+        MongoClient.connect(url,function (err,db) {
+            loginCrude.deleteUserDetails(req,db,function (result) {
+                res.json({message:'success'});
+                db.close();
+            })
+        });        
+    })
 
 router.route('/country')
     .get(setAcceptsHeader,function (req,res) {
@@ -167,10 +185,25 @@ router.route('/school/:schoolId')
                 db.close();
             })
         });
+    })
+    .put(setAcceptsHeader,function(req,res){
+         MongoClient.connect(url,function (err,db) {
+            schoolCrude.updateSchoolById(req,db,function (result) {
+                res.json({message:'success'});
+                db.close();
+            })
+        })
+    })
+    .delete(setAcceptsHeader,function(req,res){
+        MongoClient.connect(url,function (err,db) {
+            schoolCrude.deleteSchoolById(req,db,function (result) {
+                res.json({message:'success'});
+                db.close();
+            })
+        })
     });
 
 app.use('/api', router);
 
 app.listen(port);
 console.log('Magic happens on port ' + port);
-

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f74ef2ef-7212-4467-aa28-7f0fe116946d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/crud-operations/school-registration/school-rgistration.js" afterPath="$PROJECT_DIR$/app/crud-operations/school-registration/school-rgistration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/crud-operations/log-in/log-in.js" afterPath="$PROJECT_DIR$/app/crud-operations/log-in/log-in.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,45 +21,36 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="locations.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/crud-operations/locations/locations.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="60" column="11" lean-forward="false" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#39#0" expanded="false" />
-                <element signature="e#100#389#0" expanded="false" />
-                <element signature="e#433#760#0" expanded="false" />
-                <element signature="e#807#1187#0" expanded="false" />
-                <element signature="e#1232#1426#0" expanded="false" />
-                <element signature="e#1480#1698#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="school-rgistration.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/crud-operations/school-registration/school-rgistration.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="23" />
-              <folding>
-                <element signature="e#106#754#0" expanded="false" />
-                <element signature="e#807#1042#0" expanded="false" />
-                <element signature="e#1096#1284#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log-in.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="log-in.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/crud-operations/log-in/log-in.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+            <state relative-caret-position="204">
+              <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
               <folding>
-                <element signature="e#107#515#0" expanded="false" />
-                <element signature="e#563#863#0" expanded="false" />
+                <element signature="e#590#890#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="75" column="7" lean-forward="true" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
+              <folding>
+                <element signature="e#1342#1477#0" expanded="false" />
+                <element signature="e#1609#1670#0" expanded="false" />
+                <element signature="e#1742#2013#0" expanded="false" />
+                <element signature="e#2568#2840#0" expanded="false" />
+                <element signature="e#2888#3320#0" expanded="false" />
+                <element signature="e#3393#3681#0" expanded="false" />
+                <element signature="e#3764#3986#0" expanded="false" />
+                <element signature="e#4062#4353#0" expanded="false" />
+                <element signature="e#4437#4660#0" expanded="false" />
+                <element signature="e#4733#4952#0" expanded="false" />
+                <element signature="e#5000#5293#0" expanded="false" />
+                <element signature="e#5376#5596#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -89,11 +80,11 @@
       <list>
         <option value="$PROJECT_DIR$/app-server.js" />
         <option value="$PROJECT_DIR$/app/crud-operations/admin/admin.js" />
-        <option value="$PROJECT_DIR$/app/crud-operations/log-in/log-in.js" />
         <option value="$PROJECT_DIR$/app/db-connection/db-connection.js" />
         <option value="$PROJECT_DIR$/app/crud-operations/locations/locations.js" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/app/crud-operations/school-registration/school-rgistration.js" />
+        <option value="$PROJECT_DIR$/app/crud-operations/log-in/log-in.js" />
       </list>
     </option>
   </component>
@@ -111,7 +102,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectView">
@@ -129,8 +120,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -261,11 +250,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Temple-Of-Learning" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
@@ -359,33 +350,35 @@
       <workItem from="1487215113920" duration="246000" />
       <workItem from="1488215430024" duration="707000" />
       <workItem from="1488390300441" duration="1730000" />
+      <workItem from="1489118027340" duration="612000" />
+      <workItem from="1489118983750" duration="1599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44441000" />
+    <option name="totallyTimeSpent" value="46652000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24889868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37066245" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,6 +394,80 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/crud-operations/locations/locations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="60" column="11" lean-forward="false" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+            <element signature="e#100#389#0" expanded="false" />
+            <element signature="e#433#760#0" expanded="false" />
+            <element signature="e#807#1187#0" expanded="false" />
+            <element signature="e#1232#1426#0" expanded="false" />
+            <element signature="e#1480#1698#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/crud-operations/school-registration/school-rgistration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#106#754#0" expanded="false" />
+            <element signature="e#807#1042#0" expanded="false" />
+            <element signature="e#1096#1284#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/crud-operations/log-in/log-in.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding>
+            <element signature="e#590#890#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/crud-operations/locations/locations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="60" column="11" lean-forward="false" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+            <element signature="e#100#389#0" expanded="false" />
+            <element signature="e#433#760#0" expanded="false" />
+            <element signature="e#807#1187#0" expanded="false" />
+            <element signature="e#1232#1426#0" expanded="false" />
+            <element signature="e#1480#1698#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/crud-operations/school-registration/school-rgistration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#106#754#0" expanded="false" />
+            <element signature="e#807#1042#0" expanded="false" />
+            <element signature="e#1096#1284#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/crud-operations/log-in/log-in.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding>
+            <element signature="e#590#890#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/crud-operations/locations/locations.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -463,8 +530,7 @@
         <state relative-caret-position="425">
           <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
           <folding>
-            <element signature="e#107#515#0" expanded="false" />
-            <element signature="e#563#863#0" expanded="false" />
+            <element signature="e#590#890#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -521,8 +587,7 @@
         <state relative-caret-position="102">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="26" selection-end-column="11" />
           <folding>
-            <element signature="e#107#515#0" expanded="false" />
-            <element signature="e#563#863#0" expanded="false" />
+            <element signature="e#590#890#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -567,54 +632,7 @@
         <state relative-caret-position="102">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="26" selection-end-column="11" />
           <folding>
-            <element signature="e#107#515#0" expanded="false" />
-            <element signature="e#563#863#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="132" column="32" lean-forward="false" selection-start-line="132" selection-start-column="25" selection-end-line="132" selection-end-column="32" />
-          <folding>
-            <element signature="e#1342#1477#0" expanded="false" />
-            <element signature="e#1609#1670#0" expanded="false" />
-            <element signature="e#1742#2013#0" expanded="false" />
-            <element signature="e#2059#2494#0" expanded="false" />
-            <element signature="e#2568#2840#0" expanded="false" />
-            <element signature="e#2888#3320#0" expanded="false" />
-            <element signature="e#3764#3986#0" expanded="false" />
-            <element signature="e#4062#4353#0" expanded="false" />
-            <element signature="e#4437#4660#0" expanded="false" />
-            <element signature="e#4733#4952#0" expanded="false" />
-            <element signature="e#5000#5293#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/crud-operations/locations/locations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-            <element signature="e#100#389#0" expanded="false" />
-            <element signature="e#433#760#0" expanded="false" />
-            <element signature="e#807#1187#0" expanded="false" />
-            <element signature="e#1232#1426#0" expanded="false" />
-            <element signature="e#1480#1698#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/crud-operations/log-in/log-in.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="26" selection-end-column="11" />
-          <folding>
-            <element signature="e#107#515#0" expanded="false" />
-            <element signature="e#563#863#0" expanded="false" />
+            <element signature="e#590#890#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -659,8 +677,52 @@
         <state relative-caret-position="102">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="26" selection-end-column="11" />
           <folding>
-            <element signature="e#107#515#0" expanded="false" />
-            <element signature="e#563#863#0" expanded="false" />
+            <element signature="e#590#890#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="132" column="32" lean-forward="false" selection-start-line="132" selection-start-column="25" selection-end-line="132" selection-end-column="32" />
+          <folding>
+            <element signature="e#1342#1477#0" expanded="false" />
+            <element signature="e#1609#1670#0" expanded="false" />
+            <element signature="e#1742#2013#0" expanded="false" />
+            <element signature="e#2059#2494#0" expanded="false" />
+            <element signature="e#2568#2840#0" expanded="false" />
+            <element signature="e#2888#3320#0" expanded="false" />
+            <element signature="e#3764#3986#0" expanded="false" />
+            <element signature="e#4062#4353#0" expanded="false" />
+            <element signature="e#4437#4660#0" expanded="false" />
+            <element signature="e#4733#4952#0" expanded="false" />
+            <element signature="e#5000#5293#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/crud-operations/locations/locations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+            <element signature="e#100#389#0" expanded="false" />
+            <element signature="e#433#760#0" expanded="false" />
+            <element signature="e#807#1187#0" expanded="false" />
+            <element signature="e#1232#1426#0" expanded="false" />
+            <element signature="e#1480#1698#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/crud-operations/log-in/log-in.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="26" selection-end-column="11" />
+          <folding>
+            <element signature="e#590#890#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -805,9 +867,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/crud-operations/school-registration/school-rgistration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#106#754#0" expanded="false" />
+            <element signature="e#807#1042#0" expanded="false" />
+            <element signature="e#1096#1284#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/crud-operations/locations/locations.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="204">
           <caret line="60" column="11" lean-forward="false" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
@@ -822,43 +896,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="169" column="7" lean-forward="true" selection-start-line="169" selection-start-column="7" selection-end-line="169" selection-end-column="7" />
+        <state relative-caret-position="150">
+          <caret line="75" column="7" lean-forward="true" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
           <folding>
             <element signature="e#1342#1477#0" expanded="false" />
             <element signature="e#1609#1670#0" expanded="false" />
             <element signature="e#1742#2013#0" expanded="false" />
-            <element signature="e#2059#2494#0" expanded="false" />
             <element signature="e#2568#2840#0" expanded="false" />
             <element signature="e#2888#3320#0" expanded="false" />
+            <element signature="e#3393#3681#0" expanded="false" />
             <element signature="e#3764#3986#0" expanded="false" />
             <element signature="e#4062#4353#0" expanded="false" />
             <element signature="e#4437#4660#0" expanded="false" />
             <element signature="e#4733#4952#0" expanded="false" />
             <element signature="e#5000#5293#0" expanded="false" />
+            <element signature="e#5376#5596#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/crud-operations/log-in/log-in.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        <state relative-caret-position="204">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
           <folding>
-            <element signature="e#107#515#0" expanded="false" />
-            <element signature="e#563#863#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/crud-operations/school-registration/school-rgistration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="23" />
-          <folding>
-            <element signature="e#106#754#0" expanded="false" />
-            <element signature="e#807#1042#0" expanded="false" />
-            <element signature="e#1096#1284#0" expanded="false" />
+            <element signature="e#590#890#0" expanded="false" />
           </folding>
         </state>
       </provider>

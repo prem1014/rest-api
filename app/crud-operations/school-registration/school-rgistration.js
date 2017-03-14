@@ -36,6 +36,18 @@ module.exports={
         collection.find({_id:req.params.schoolId}).toArray(function (err,result) {
             callback(result);
         })
+    },
+    updateSchoolById:function(req,db,callback){
+        var collection = db.collection('schoolDetails');
+        collection.update({_id:req.params.schoolId},{$set:{currentStatus:req.body.currentStatus}},function(err,result){
+            callback(result);
+        })
+    },
+    deleteSchoolById:function(req,db,callback){
+        var collection = db.collection('schoolDetails');
+        collection.remove({_id:req.params.schoolId},function(err,result){
+            callback(result);
+        })
     }
 
 };
