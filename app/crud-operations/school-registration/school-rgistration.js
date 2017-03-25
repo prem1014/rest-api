@@ -16,7 +16,10 @@ module.exports={
             emailId:req.body.emailId,
             _id:req.body.schoolUID,
             message:req.body.message,
-            currentStatus:'pending'
+            currentStatus:'pending',
+            countryId:req.body.countryId,
+            stateId:req.body.stateId,
+            districtId:req.body.districtId
         },
             function (err,result) {
                 callback(err,result)

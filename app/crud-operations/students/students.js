@@ -10,15 +10,18 @@ module.exports = {
                 fName:req.body.fName,
                 mName:req.body.mName,
                 studentClass:req.body.studentClass,
-                countryName:req.body.countryName,
-                stateNmae:req.body.stateNmae,
-                districtName:req.body.districtName,
-                cityName:req.body.cityName,
-                address:req.body.address,
-                mobileNo:req.body.mobileNo,
+                countryName:req.body.personalInfo.country.name,
+                stateName:req.body.personalInfo.state.name,
+                districtName:req.body.personalInfo.district.name,
+                cityName:req.body.personalInfo.cityName,
+                address:req.body.personalInfo.address,
+                mobileNo:req.body.personalInfo.mobileNo,
                 schoolName:req.body.schoolName,
-                emailId:req.body.emailId,
-                pinCode:req.body.pinCode
+                emailId:req.body.personalInfo.emailId,
+                pinCode:req.body.personalInfo.pinCode,
+                countryId:req.body.personalInfo.country.selectedCountryId,
+                stateId:req.body.personalInfo.state.selectedStateId,
+                districtId:req.body.personalInfo.district.selectedDistrictId
         },
             function (err,result) {
                 callback(err,result)

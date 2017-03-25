@@ -7,10 +7,11 @@ module.exports={
         console.log(req.body);
         collection.insert(
             {
-                userName:req.body.schoolName,
+                userName:req.body.userName,
                 _id:req.body._id,
                 password:req.body.password,
-                mobileNo:req.body.mobileNo
+                mobileNo:req.body.mobileNo,
+                userRole:req.body.userRole
             },
             function (err,result) {
                 callback(result)
