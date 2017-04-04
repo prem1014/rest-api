@@ -224,6 +224,32 @@ router.route('/student')
         });
     });
 
+router.route('/student/:studentId')
+    .get(setAcceptsHeader,function (req,res) {
+        MongoClient.connect(url,function (err,db) {
+            studentCrude.getStudentsDetailsById(req,db,function (result) {
+                res.json(result);
+                db.close();
+            })
+        });
+    })
+    .put(setAcceptsHeader,function(req,res){
+         MongoClient.connect(url,function (err,db) {
+            schoolCrude.updateSchoolById(req,db,function (result) {
+                res.json({message:'success'});
+                db.close();
+            })
+        })
+    })
+    .delete(setAcceptsHeader,function(req,res){
+        MongoClient.connect(url,function (err,db) {
+            schoolCrude.deleteSchoolById(req,db,function (result) {
+                res.json({message:'success'});
+                db.close();
+            })
+        })
+    });
+
 router.route('/teacher')
     .get(setAcceptsHeader,function(req,res){
         MongoClient.connect(url,function (err,db) {

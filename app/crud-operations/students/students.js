@@ -10,18 +10,26 @@ module.exports = {
                 fName:req.body.fName,
                 mName:req.body.mName,
                 studentClass:req.body.studentClass,
-                countryName:req.body.personalInfo.country.name,
-                stateName:req.body.personalInfo.state.name,
-                districtName:req.body.personalInfo.district.name,
-                cityName:req.body.personalInfo.cityName,
-                address:req.body.personalInfo.address,
-                mobileNo:req.body.personalInfo.mobileNo,
                 schoolName:req.body.schoolName,
-                emailId:req.body.personalInfo.emailId,
-                pinCode:req.body.personalInfo.pinCode,
-                countryId:req.body.personalInfo.country.selectedCountryId,
-                stateId:req.body.personalInfo.state.selectedStateId,
-                districtId:req.body.personalInfo.district.selectedDistrictId
+                personalInfo: {
+                	country: {
+                		name: req.body.personalInfo.country.name,
+                		selectedCountryId: req.body.personalInfo.country.selectedCountryId
+                	},
+                	state: {
+                		name: req.body.personalInfo.country.name,
+                		selectedStateId: req.body.personalInfo.state.selectedStateId
+                	},
+                	district: {
+                		name: req.body.personalInfo.country.name,
+                		selectedDistrictId: req.body.personalInfo.district.selectedDistrictId
+                	},
+                	cityName: req.body.personalInfo.cityName,
+                	address: req.body.personalInfo.address,
+                	mobileNo: req.body.personalInfo.mobileNo,
+                	emailId: req.body.personalInfo.emailId,
+                	pinCode: req.body.personalInfo.pinCode
+                }
         },
             function (err,result) {
                 callback(err,result)
@@ -31,6 +39,12 @@ module.exports = {
     getStudentsDetails:function(req,db,callback){
          var collection=db.collection('student');
         collection.find({}).toArray(function (err,schoolDetails) {
+            callback(schoolDetails);
+        })
+    },
+    getStudentsDetailsById:function(req,db,callback){
+         var collection=db.collection('student');
+        collection.find({_id:req.params.studentId}).toArray(function (err,schoolDetails) {
             callback(schoolDetails);
         })
     }
