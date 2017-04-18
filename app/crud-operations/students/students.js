@@ -17,11 +17,11 @@ module.exports = {
                 		selectedCountryId: req.body.personalInfo.country.selectedCountryId
                 	},
                 	state: {
-                		name: req.body.personalInfo.country.name,
+                		name: req.body.personalInfo.state.name,
                 		selectedStateId: req.body.personalInfo.state.selectedStateId
                 	},
                 	district: {
-                		name: req.body.personalInfo.country.name,
+                		name: req.body.personalInfo.district.name,
                 		selectedDistrictId: req.body.personalInfo.district.selectedDistrictId
                 	},
                 	cityName: req.body.personalInfo.cityName,
