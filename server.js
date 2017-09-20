@@ -101,6 +101,7 @@ router.route('/country')
         MongoClient.connect(url,function (err,db) {
             locationsCrude.getCountry(req,db,function (result) {
                 res.json(result);
+                console.log(result);
                 db.close();
             })
         });
@@ -108,7 +109,6 @@ router.route('/country')
     .post(setAcceptsHeader,function (req,res) {
         res.setHeader('Content-Type', 'application/json');
         MongoClient.connect(url, function(err, db) {
-            console.log(req);
             console.log("Connected successfully to server");
             locationsCrude.saveCountry(req,db, function(result) {
                 res.json({message:'data saved'});
@@ -235,7 +235,7 @@ router.route('/student/:studentId')
     })
     .put(setAcceptsHeader,function(req,res){
          MongoClient.connect(url,function (err,db) {
-            schoolCrude.updateSchoolById(req,db,function (result) {
+            studentCrude.updateSchoolById(req,db,function (result) {
                 res.json({message:'success'});
                 db.close();
             })
@@ -243,7 +243,7 @@ router.route('/student/:studentId')
     })
     .delete(setAcceptsHeader,function(req,res){
         MongoClient.connect(url,function (err,db) {
-            schoolCrude.deleteSchoolById(req,db,function (result) {
+            studentCrude.studentId(req,db,function (result) {
                 res.json({message:'success'});
                 db.close();
             })

@@ -47,5 +47,11 @@ module.exports = {
         collection.find({_id:req.params.studentId}).toArray(function (err,schoolDetails) {
             callback(schoolDetails);
         })
+    },
+    deleteStudentById:function(req,db,callback){
+            var collection = db.collection('student');
+            collection.remove({_id:req.params.studentId},function(err,result){
+                callback(result);
+            })
     }
 }
